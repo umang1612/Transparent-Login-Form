@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background: url(../SRC/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+body img{
+    opacity: 0.2; 
+    filter: alpha(opacity=20);
+}
+.container {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    height: 345px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    left: 5%;
+    top: 17%;
+}
+.container h1{
+    color: rgb(222, 234, 243);
+    text-shadow: 2px 2px rgb(29, 14, 83);
+    font-family: 'Joan', serif;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(255, 14, 199);
+    padding: 2px 2px;
+    height: 50px;
+    text-align: left;
+    
+}
+.box input{ 
+    background: none;
+    padding: 12px 8px;
+    margin: 25px 0px;
+    font-size: 20px;
+    border: none;
+    outline:none;
+    color: rgb(255, 247, 247);
+    border-bottom: 3px solid rgb(255, 5, 5);
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    width: 30%;
+    margin: 27px 2px;
+    padding: 10px 14px;
+    border: 2px solid rgb(85, 6, 44);
+    border-radius: 10px;
+    font-size: 20px;
+    background: none;
+    font-weight: bolder;
+    
+}
+.btn:hover{
+    background-color: rgba(20, 20, 255, 0.63);
+    
+}
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+::placeholder{
+    color:rgb(243, 234, 234)
+}
